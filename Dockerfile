@@ -3,7 +3,7 @@ FROM devopsedu/webapp
 
 ADD website /var/www/html
 
-RUN /var/www/html/index.php
+RUN rm /var/www/html/index.http
 
 CMD apachectl -D FOREGROUND
 
